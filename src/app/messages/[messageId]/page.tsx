@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { getMessage } from "@/app/_actions/route";
+import { getMessage } from "@/app/_actions/actions";
 import ActionButton from "@/app/Components/ActionButton"
 import REButton from "@/app/Components/REButton";
 

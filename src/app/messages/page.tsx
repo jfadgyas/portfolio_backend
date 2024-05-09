@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-import { getMessages } from "../_actions/route"
+import { getMessages } from "../_actions/actions"
 import ActionButton from "../Components/ActionButton"
 
 const page = async () => {

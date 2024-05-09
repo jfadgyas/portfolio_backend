@@ -12,7 +12,7 @@ import {
     mdilArrowRightCircle 
 } from '@mdi/light-js';
 
-import { postMessage } from "../_actions/route";
+import { postMessage } from "../_actions/actions";
 import Sending from "../Components/Sending"
 
 import style from './page.module.scss'
