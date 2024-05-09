@@ -1,0 +1,45 @@
+body{
+  background: rgb(44, 38, 38);
+  color: aliceblue;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.link{
+  display: grid;
+  grid-template-columns: 2fr 2fr 4fr;
+  gap: 1em;
+  text-decoration: none;
+  color: inherit;
+  transition: 300ms;
+  &:hover{
+    color: cornflowerblue;
+  }
+}
+
+.list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.listItem{
+  display: grid;
+  grid-template-columns: 8fr 1fr;
+  gap: 1em;
+  padding: 0.5em;
+  &:first-child{
+    color: violet;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  &:nth-child(n + 1){
+    border-bottom: 1px solid rgba(aliceblue, 0.2);
+  }
+  &--unread{
+    font-weight: bold;
+  }
+}
+
+.icon{
+  width: 1.5em;
+}

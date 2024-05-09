@@ -1,0 +1,17 @@
+.modal{
+    display: grid;
+    grid-template-columns: 2em 1fr;
+    gap: 1em;
+    place-items: center;
+    margin: 0;
+    padding: 1.5em;
+    background: none;
+    color: aliceblue;
+    &--success{
+        background: limegreen;
+        // color: springgreen;
+    }
+    &--error{
+        background: tomato;
+    }
+}

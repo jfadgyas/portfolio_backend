@@ -1,0 +1,22 @@
+.message{
+    margin: 1em;
+    &__detailsWrapper{
+        display: flex;
+        gap: 3em;
+        place-items: center;
+        width: max-content;
+        padding-inline: 1em;
+        border: 1px solid #4e4444;
+        // border-radius: 0.5em;
+        // box-shadow: 2px 2px 7px #4e4444;
+    }
+    &__detail{
+        display: flex;
+        gap: 0.5em;
+    }
+    &__message{
+        padding: 1em;
+        min-height: 50dvh;
+        background: #302929;
+    }
+}

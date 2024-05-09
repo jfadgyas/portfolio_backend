@@ -1,0 +1,21 @@
+.message {
+  margin: 1em;
+}
+.message__detailsWrapper {
+  display: flex;
+  gap: 3em;
+  place-items: center;
+  width: -moz-max-content;
+  width: max-content;
+  padding-inline: 1em;
+  border: 1px solid #4e4444;
+}
+.message__detail {
+  display: flex;
+  gap: 0.5em;
+}
+.message__message {
+  padding: 1em;
+  min-height: 50dvh;
+  background: #302929;
+}/*# sourceMappingURL=page.module.css.map */

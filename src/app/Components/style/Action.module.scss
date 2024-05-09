@@ -1,0 +1,13 @@
+.actionbtn{
+    background: none;
+    color: inherit;
+    border: none;
+    outline: none;
+    transition: 300ms;
+    &:hover{
+        cursor: pointer;
+        background: #4e4444;
+        // color: cornflowerblue;
+        // color: tomato;
+    }
+}

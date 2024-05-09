@@ -1,0 +1,11 @@
+.actionbtn {
+  background: none;
+  color: inherit;
+  border: none;
+  outline: none;
+  transition: 300ms;
+}
+.actionbtn:hover {
+  cursor: pointer;
+  background: #4e4444;
+}/*# sourceMappingURL=Action.module.css.map */
