@@ -1,9 +1,9 @@
 import Link from "next/link"
 
-import { getMessages } from "../_actions/actions"
-import ActionButton from "../Components/ActionButton"
+import { getMessages } from "@/app/_actions/actions"
+import ActionButton from "@/app/Components/ActionButton"
 
-const page = async () => {
+const Messages = async () => {
 
     const messages = await getMessages().then(data => data as any[])
 
@@ -41,4 +41,4 @@ const page = async () => {
     )
 }
 
-export default page
+export default Messages

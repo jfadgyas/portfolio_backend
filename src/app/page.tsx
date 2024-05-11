@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-import { getMessages } from "./_actions/actions"
+import { getMessages } from "@/app/_actions/actions"
 
 const AdminPage = async () => {
 

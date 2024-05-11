@@ -1,6 +1,6 @@
 'use client'
 
-import { updateMessage } from '../_actions/actions';
+import { updateMessage } from '@/app/_actions/actions';
 
 import Icon from '@mdi/react';
 import {
